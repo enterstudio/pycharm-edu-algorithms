@@ -18,7 +18,7 @@
           </option>
           <option name="courseMode" value="Course Creator" />
           <option name="courseType" value="PyCharm" />
-          <option name="description" value="This course powers our popular Data Structures and Algorithms online specialization on Coursera (https://www.coursera.org/specializations/data-structures-algorithms) and online MicroMasters program at edX (https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures). We encourage you to sign up for a session and learn this material while interacting with thousands of other talented students from around the world.&#10;&#10;A particular goal of this framework is to help you to learn how to write efficient, reliable, and compact Python code. The PyCharm IDE will help you with many code formatting ans structuring issues. It will also help you to test and debug your code." />
+          <option name="description" value="This course powers our popular &lt;a href=&quot;https://www.coursera.org/specializations/data-structures-algorithms&quot;&gt;Data Structures and Algorithms online specialization on Coursera&lt;/a&gt; and &lt;a href=&quot;https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures&quot;&gt;online MicroMasters program at edX&lt;/a&gt;. We encourage you to sign up for a session and learn this material while interacting with thousands of other talented students from around the world.&#10;&#10;A particular goal of this framework is to help you to learn how to write efficient, reliable, and compact Python code. The PyCharm IDE will make the learning process smooth and enjoyable: it will help you with testing and debugging as well as structuring and formatting your code.&#10;&#10;The assumed pipeline is the following. For each algorithmic task in this course:&#10;&lt;ol&gt;&#10;&lt;li&gt;Design an algorithm, prove that it is correct and has the expected asymptotic behavior.&lt;/li&gt;&#10;&lt;li&gt;Implement it in Python here, in PyCharm Edu.&lt;/li&gt;&#10;&lt;li&gt;Implement unit tests and stress tests for your solution. If a bug is found, fix it and test again.&lt;/li&gt;&#10;&lt;li&gt;By pressing the play button on the right pane, check your solution against a few test cases.&lt;/li&gt;&#10;&lt;li&gt;Finally, when you are happy with your implementation, submit to Coursera or edX. This will test your solution against dozens of carefully selected tests cases. For each test case, the autograding system checks whetheryour solution is fast enough and computes the right result.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;Enjoy!" />
           <option name="language" value="Python 3.x" />
           <option name="languageCode" value="en" />
           <option name="lessons">
@@ -26,7 +26,7 @@
               <Lesson>
                 <option name="id" value="0" />
                 <option name="index" value="1" />
-                <option name="name" value="Algorithmic Warm Up" />
+                <option name="name" value="Week 1: Algorithmic Warm Up" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
@@ -35,12 +35,12 @@
                         <map />
                       </option>
                       <option name="index" value="1" />
-                      <option name="name" value="task1" />
+                      <option name="name" value="Problem 1.1: Fibonacci Number" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="taskTexts">
                         <map>
-                          <entry key="task" value="&lt;html&gt;&#10;$a=b$&#10;&lt;/html&gt;&#10;" />
+                          <entry key="task" value="# Introduction&#10;Fibonacci numbers are defined recursively: $F_0=0$, $F_1=1$,&#10;and $F_n=F_{n-1}+F_{n-2}$ for $n \ge 1$.&#10;This definition results in the recursive function `compute_fibonacci_number_naive`&#10;that you see on the left.&#10;&#10;# Running the Naive Solution&#10;Try to compute $F_{10}$ using this function. For this, add the line&#10;```&#10;print(fibonacci_number_naive(10))&#10;```&#10;to the end of the file and press the green Run button&#10;at the top left corner of the Python file. You'll see that it will print the result (55) in the&#10;Run pane at the bottom in blink of an eye. Now, change 10 to 40 and press the Run button again. You'll see&#10;that the solution hangs and does not print anything. Stop it by pressing the red Stop button in the Run pane.&#10;&#10;Let's try to understand why our current solution hangs.&#10;To this end, let's add *debug printing* to the `fibonacci_number_naive` function:&#10;add the line&#10;```&#10;print(&quot;Compute F sub&quot;, n)&#10;```&#10;to the beginning of the function and run it again.&#10;You'll see a seemingly endless number of recursive calls in the Run pane:&#10;```&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 7&#10;Compute F sub 6&#10;Compute F sub 5&#10;Compute F sub 4&#10;Compute F sub 3&#10;Compute F sub 2&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 1&#10;Compute F sub 2&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 3&#10;```&#10;This output, in particular, reveals the reason why our&#10;current solution is so slow: it computes the same thing again many times.&#10;&#10;&#10;# Task&#10;&#10;## Implement an Efficient Solution&#10;Implement the `fibonacci_number` function. Make sure to avoid recomputing the same thing again.&#10;&#10;## Test Your Solution&#10;" />
                         </map>
                       </option>
                       <option name="testsText">
@@ -51,13 +51,44 @@
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
-                          <entry key="task.py">
+                          <entry key="fibonacci_number.py">
                             <value>
                               <TaskFile>
                                 <option name="answerPlaceholders">
-                                  <list />
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="286" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Make sure to avoid recomputing the same thing again. For this, you may want to allocate an array like this:&#10;&#10;fibonacci = [0] * (n + 1)" />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="write your code here" />
+                                                <option name="possibleAnswer" value="return n" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="0" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
@@ -78,7 +109,7 @@
           <option name="name" value="Algorithmic Toolbox" />
         </Course>
       </option>
-      <option name="toolWindowMode" value="TEXT" />
+      <option name="toolWindowMode" value="EDITING" />
       <option name="turnEditingMode" value="false" />
       <option name="VERSION" value="8" />
       <option name="myUserTests">
