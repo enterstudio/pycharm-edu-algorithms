@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list>
+              <StepicUser>
+                <option name="accessToken" value="" />
+                <option name="firstName" value="Alexander" />
+                <option name="guest" value="false" />
+                <option name="id" value="-1" />
+                <option name="lastName" value="S. Kulikov" />
+                <option name="refreshToken" value="" />
+              </StepicUser>
+            </list>
+          </option>
+          <option name="courseMode" value="Course Creator" />
+          <option name="courseType" value="PyCharm" />
+          <option name="description" value="This course powers our popular Data Structures and Algorithms online specialization on Coursera (https://www.coursera.org/specializations/data-structures-algorithms) and online MicroMasters program at edX (https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures). We encourage you to sign up for a session and learn this material while interacting with thousands of other talented students from around the world.&#10;&#10;A particular goal of this framework is to help you to learn how to write efficient, reliable, and compact Python code. The PyCharm IDE will help you with many code formatting ans structuring issues. It will also help you to test and debug your code." />
+          <option name="language" value="Python 3.x" />
+          <option name="languageCode" value="en" />
+          <option name="lessons">
+            <list>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Algorithmic Warm Up" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="task1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="&lt;html&gt;&#10;$a=b$&#10;&lt;/html&gt;&#10;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                  </list>
+                </option>
+              </Lesson>
+            </list>
+          </option>
+          <option name="name" value="Algorithmic Toolbox" />
+        </Course>
+      </option>
+      <option name="toolWindowMode" value="TEXT" />
+      <option name="turnEditingMode" value="false" />
+      <option name="VERSION" value="8" />
+      <option name="myUserTests">
+        <map />
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
