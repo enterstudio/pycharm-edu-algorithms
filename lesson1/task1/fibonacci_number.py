@@ -10,8 +10,7 @@ def fibonacci_number_naive(n):
 
 
 def fibonacci_number(n):
-    assert n >= 0
-    return n
+    write your code here
 
 
 # TODO: when your solution is ready, uncomment the following three lines and submit to Coursera/edX

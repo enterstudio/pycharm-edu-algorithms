@@ -26,7 +26,7 @@
               <Lesson>
                 <option name="id" value="0" />
                 <option name="index" value="1" />
-                <option name="name" value="Week 1: Algorithmic Warm Up" />
+                <option name="name" value="Algorithmic Warm Up" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
@@ -35,12 +35,12 @@
                         <map />
                       </option>
                       <option name="index" value="1" />
-                      <option name="name" value="Problem 1.1: Fibonacci Number" />
+                      <option name="name" value="Fibonacci Number" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="taskTexts">
                         <map>
-                          <entry key="task" value="# Introduction&#10;Fibonacci numbers are defined recursively: $F_0=0$, $F_1=1$,&#10;and $F_n=F_{n-1}+F_{n-2}$ for $n \ge 1$.&#10;This definition results in the recursive function `compute_fibonacci_number_naive`&#10;that you see on the left.&#10;&#10;# Running the Naive Solution&#10;Try to compute $F_{10}$ using this function. For this, add the line&#10;```&#10;print(fibonacci_number_naive(10))&#10;```&#10;to the end of the file and press the green Run button&#10;at the top left corner of the Python file. You'll see that it will print the result (55) in the&#10;Run pane at the bottom in blink of an eye. Now, change 10 to 40 and press the Run button again. You'll see&#10;that the solution hangs and does not print anything. Stop it by pressing the red Stop button in the Run pane.&#10;&#10;Let's try to understand why our current solution hangs.&#10;To this end, let's add *debug printing* to the `fibonacci_number_naive` function:&#10;add the line&#10;```&#10;print(&quot;Compute F sub&quot;, n)&#10;```&#10;to the beginning of the function and run it again.&#10;You'll see a seemingly endless number of recursive calls in the Run pane:&#10;```&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 7&#10;Compute F sub 6&#10;Compute F sub 5&#10;Compute F sub 4&#10;Compute F sub 3&#10;Compute F sub 2&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 1&#10;Compute F sub 2&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 3&#10;```&#10;This output, in particular, reveals the reason why our&#10;current solution is so slow: it computes the same thing again many times.&#10;&#10;&#10;# Task&#10;&#10;## Implement an Efficient Solution&#10;Implement the `fibonacci_number` function. Make sure to avoid recomputing the same thing again.&#10;&#10;## Test Your Solution&#10;" />
+                          <entry key="task" value="# Introduction&#10;Fibonacci numbers are defined recursively: $F_0=0$, $F_1=1$,&#10;and $F_n=F_{n-1}+F_{n-2}$ for $n \ge 1$.&#10;This definition results in the recursive function `compute_fibonacci_number_naive`&#10;that you see on the left in the file `fibonacci_number.py`.&#10;&#10;# Running the Naive Solution&#10;Try to compute $F_{10}$ using this function. For this, add the line&#10;```&#10;print(fibonacci_number_naive(10))&#10;```&#10;to the end of the file and press the green Run button&#10;at the top left corner of the Python file. You'll see that it will print the result (55) in the&#10;Run pane at the bottom in blink of an eye. Now, change 10 to 40 and press the Run button again. You'll see&#10;that the solution hangs and does not print anything. Stop it by pressing the red Stop button in the Run pane.&#10;&#10;Let's try to understand why our current solution hangs.&#10;To this end, let's add *debug printing* to the `fibonacci_number_naive` function:&#10;add the line&#10;```&#10;print(&quot;Compute F sub&quot;, n)&#10;```&#10;to the beginning of the function and run it again.&#10;You'll see a seemingly endless series of recursive calls in the Run pane:&#10;```&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 7&#10;Compute F sub 6&#10;Compute F sub 5&#10;Compute F sub 4&#10;Compute F sub 3&#10;Compute F sub 2&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 1&#10;Compute F sub 2&#10;Compute F sub 1&#10;Compute F sub 0&#10;Compute F sub 3&#10;```&#10;This output, in particular, reveals the reason why our&#10;current solution is so slow:&#10;*it computes the same thing again many times*.&#10;&#10;&#10;# Task&#10;&#10;## Implement an Efficient Solution&#10;Implement the `fibonacci_number` function.&#10;Make sure to avoid recomputing the same thing again.&#10;Then press the &quot;Check Task&quot; button in the Task Description pane.&#10;This will check whether your implementation computes the 10-th Fibonacci&#10;number correctly.&#10;&#10;## Test Your Solution&#10;Now, switch to the file `fibonacci_number_unit_tests.py`.&#10;It consists of several unit tests. The function `test_small`&#10;checks that your implementation computes the same as the naive one&#10;for all $0 \le n &lt; 8$ (this is affordable, since for $n &lt; 7$ the&#10;`fibonacci_number_naive` is fast enough).&#10;The function `test_large`&#10;checks&#10;" />
                         </map>
                       </option>
                       <option name="testsText">
@@ -60,7 +60,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="20" />
-                                      <option name="offset" value="286" />
+                                      <option name="offset" value="268" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -76,7 +76,7 @@
                                                 </option>
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="write your code here" />
-                                                <option name="possibleAnswer" value="return n" />
+                                                <option name="possibleAnswer" value="write your code here" />
                                                 <option name="selected" value="false" />
                                                 <option name="status" value="Unchecked" />
                                               </AnswerPlaceholderSubtaskInfo>
@@ -95,6 +95,53 @@
                                 <option name="userCreated" value="false" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="fibonacci_number_unit_tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="7" />
+                                      <option name="offset" value="329" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Compute the value of the 35-th Fibonacci number and add it here. This way, the function test_large will also check that your implementation computes F_{35} correctly." />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="(35, ?)" />
+                                                <option name="possibleAnswer" value="(35, ?)" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="2" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="fibonacci_number_unit_tests.py" />
+                                <option name="text" />
                               </TaskFile>
                             </value>
                           </entry>

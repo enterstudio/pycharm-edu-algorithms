@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c270dd-cdce-4467-bda8-29332ea57a27" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/task1/fibonacci_number_unit_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/task1/fibonacci_number_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson1/task1/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/fibonacci_number_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_helper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +23,32 @@
       <file leaf-file-name="fibonacci_number.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fibonacci_number_unit_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number_unit_tests.py">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,6 +60,7 @@
       <list>
         <option value="tests" />
         <option value="task" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -44,6 +70,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/lesson1/task2/fibonacci_number_unit_tests.py" />
+        <option value="$PROJECT_DIR$/lesson1/task1/fibonacci_number_unit_tests.py" />
+        <option value="$PROJECT_DIR$/lesson1/task1/tests.py" />
         <option value="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" />
       </list>
     </option>
@@ -102,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fibonacci_number">
+  <component name="RunManager" selected="Run Study Tests.Algorithmic Warm Up/Fibonacci Number">
     <configuration name="fibonacci_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithmic Toolbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,47 +150,108 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Algorithmic Warm Up/Fibonacci Number" type="ccruntests" factoryName="Run Study Tests" temporary="true">
       <module name="Algorithmic Toolbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="/task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="studyTest" value="$PROJECT_DIR$/lesson1/task1/tests.py" />
+    </configuration>
+    <configuration name="Unittests for fibonacci_number_unit_tests.TestFibonacciNumber" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Algorithmic Toolbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1/task2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;fibonacci_number_unit_tests.TestFibonacciNumber&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in /Users/kulikov/github/pycharm-edu-algorithms/lesson1/task2/fibonacci_number_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Algorithmic Toolbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1/task2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson1/task2/fibonacci_number_unit_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in fibonacci_number_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Algorithmic Toolbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1/task1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson1/task1/fibonacci_number_unit_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python.fibonacci_number" />
-      <item itemvalue="Python.task" />
+      <item itemvalue="Python tests.Unittests in /Users/kulikov/github/pycharm-edu-algorithms/lesson1/task2/fibonacci_number_unit_tests.py" />
+      <item itemvalue="Python tests.Unittests for fibonacci_number_unit_tests.TestFibonacciNumber" />
+      <item itemvalue="Python tests.Unittests in fibonacci_number_unit_tests.py (1)" />
+      <item itemvalue="Run Study Tests.Algorithmic Warm Up/Fibonacci Number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Run Study Tests.Algorithmic Warm Up/Fibonacci Number" />
+        <item itemvalue="Python tests.Unittests in fibonacci_number_unit_tests.py (1)" />
         <item itemvalue="Python.fibonacci_number" />
-        <item itemvalue="Python.task" />
+        <item itemvalue="Python tests.Unittests for fibonacci_number_unit_tests.TestFibonacciNumber" />
+        <item itemvalue="Python tests.Unittests in /Users/kulikov/github/pycharm-edu-algorithms/lesson1/task2/fibonacci_number_unit_tests.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_fibonacci_number_unit_tests_py - 2018.04.13 at 19h 52m 22s.xml">
+      <configuration name="Unittests in fibonacci_number_unit_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_fibonacci_number_unit_tests_TestFibonacciNumber - 2018.04.13 at 19h 54m 15s.xml">
+      <configuration name="Unittests for fibonacci_number_unit_tests.TestFibonacciNumber" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_fibonacci_number_unit_tests_py_(1) - 2018.04.13 at 20h 00m 15s.xml">
+      <configuration name="Unittests in fibonacci_number_unit_tests.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_fibonacci_number_unit_tests_py_(1) - 2018.04.14 at 09h 30m 44s.xml">
+      <configuration name="Unittests in fibonacci_number_unit_tests.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_fibonacci_number_unit_tests_py_(1) - 2018.04.14 at 09h 32m 03s.xml">
+      <configuration name="Unittests in fibonacci_number_unit_tests.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_fibonacci_number_unit_tests_py_(1) - 2018.04.14 at 09h 32m 35s.xml">
+      <configuration name="Unittests in fibonacci_number_unit_tests.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_fibonacci_number_unit_tests_py_(1) - 2018.04.14 at 15h 29m 01s.xml">
+      <configuration name="Unittests in fibonacci_number_unit_tests.py (1)" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1419" height="853" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16630356" />
-      <window_info active="true" anchor="right" id="Task Description" order="3" visible="true" weight="0.31953523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23965141" />
+      <window_info anchor="right" id="Task Description" order="3" visible="true" weight="0.31953523" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953104" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22813688" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22813688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -184,10 +274,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number_tests.py">
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -198,7 +291,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number_tests.py">
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
@@ -212,7 +305,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number_tests.py">
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -222,20 +315,49 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/task1/tests_subtask1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task2/fibonacci_number_unit_tests.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#60#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
+      <provider selected="true" editor-type-id="StudyEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_helper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number_unit_tests.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/task1/fibonacci_number.py">
       <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
