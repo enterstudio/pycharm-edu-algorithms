@@ -1,73 +1,83 @@
-# Introduction
-Fibonacci numbers are defined recursively: $F_0=0$, $F_1=1$,
-and $F_n=F_{n-1}+F_{n-2}$ for $n \ge 1$.
-This definition results in the recursive function `compute_fibonacci_number_naive`
-that you see on the left in the file `fibonacci_number.py`.
+# Welcome!
 
-# Running the Naive Solution
-Try to compute $F_{10}$ using this function. For this, add the line
-```
-print(fibonacci_number_naive(10))
-```
-to the end of the file and press the green Run button
-at the top left corner of the Python file. You'll see that it will print the result (55) in the
-Run pane at the bottom in blink of an eye. Now, change 10 to 40 and press the Run button again. You'll see
-that the solution hangs and does not print anything. Stop it by pressing the red Stop button in the Run pane.
+This course powers our popular
+<a href="https://www.coursera.org/specializations/data-structures-algorithms">Data Structures and Algorithms online specialization on Coursera</a>
+and
+<a href="https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures">online MicroMasters program at edX</a>.
+We encourage you to sign up for a session and learn
+this material while interacting with thousands of
+other talented students from around the world.
 
-Let's try to understand why our current solution hangs.
-To this end, let's add *debug printing* to the `fibonacci_number_naive` function:
-add the line
-```
-print("Compute F sub", n)
-```
-to the beginning of the function and run it again.
-You'll see a seemingly endless series of recursive calls in the Run pane:
-```
-Compute F sub 1
-Compute F sub 0
-Compute F sub 7
-Compute F sub 6
-Compute F sub 5
-Compute F sub 4
-Compute F sub 3
-Compute F sub 2
-Compute F sub 1
-Compute F sub 0
-Compute F sub 1
-Compute F sub 2
-Compute F sub 1
-Compute F sub 0
-Compute F sub 3
-```
-This output, in particular, reveals the reason why our
-current solution is so slow:
-*it computes the same thing again many times*.
+A particular goal of this framework is to help you to learn how to
+write efficient, reliable, and compact Python code. The PyCharm IDE
+will make the learning process smooth and enjoyable: it will help
+you with testing and debugging as well as structuring and formatting your code.
 
+The assumed pipeline is the following.
+For each programming challenge in this course:
+<ol>
+<li>Design an algorithm, prove that it is correct and has the expected asymptotic behavior.</li>
+<li>Implement it in Python here, in PyCharm Edu.</li>
+<li>Implement unit tests and stress tests for your solution. If a bug is found, fix it and test again.</li>
+<li>By pressing the play button on the right pane, check your solution against a few test cases.</li>
+<li>Finally, when you are happy with your implementation, submit to Coursera or edX.
+    This will test your solution against dozens of carefully selected tests cases.
+    For each test case, the autograding system checks whetheryour solution is fast enough and
+    computes the right result.</li>
+</ol>
+
+Enjoy!
+
+# Getting Started
+
+1. We assume that you are already familiar
+with basic Python programming. To refresh
+your Python skills, you may want to take an
+Introductory Python course here
+(File -> Browse Courses).
+
+2. To get familiar with PyCharm Edu, take a look
+at the Start Guide: https://www.jetbrains.com/help/pycharm-edu/student-s-guide.html
 
 # Task
 
-## Implement an Efficient Solution
-Implement the `fibonacci_number` function.
-Make sure to avoid recomputing the same thing again.
+## Implementing a Solution
+Implement the `compute_sum` function that takes two digits (that is,
+integers in the range from 0 to 9) and returns the sum of these two digits.
 
+We start from this ridiculously simple problem to show you the
+pipeline of designing an algorithm,
+implementing it, testing and debugging your program, and
+submitting it to the grading system.
 
-## Test Your Solution
-Now, switch to the file `fibonacci_number_unit_tests.py`.
-It consists of several unit tests. The function `test_small`
-checks that your implementation computes the same as the naive one
-for all $0 \le n < 8$ (this is affordable,
-since for $n < 8$ the
-`fibonacci_number_naive` is fast enough).
-The function `test_large`
-checks that your implementation computes $F_{30}$, $F_{35}$, and
-$F_{40}$ correctly.
+For this trivial problem, we will skip “Designing an algorithm” and "Implementing"
+steps and will move to testing.
 
-Enter the value of $F_{35}$ to the placeholder and
-run the unit tests by pressing the green Execute button.
-Make sure that all tests pass.
+## Testing
+Switch to the file `sum_of_two_digits_unit_tests.py`.
+It contains unit tests for your implementation. If
+you haven't heard about unit testing before, we
+encourage you to read about it here:
+https://docs.python.org/3/library/unittest.html
+or two take a short course here, in PyCharm Edu
+(through File -> Browse Courses).
 
-## Check Your Solution
-Finally, press the "Check Task" button in the
-Task Description pane. If everything is OK,
-uncomment the last three lines in the `fibonacci_number.py`
-file and submit it to Coursera/edX.
+For this starting programming challenge, we've already
+implemented everything for you. Press the green "Execute"
+button in the top left corner of the source file to run the
+tests and make sure that all tests pass successfully.
+
+In this challenge, the space of all possible inputs
+is so small that it is possible to check just all possible
+test cases: the `test_all_inputs` method goes through all
+pairs $0 \le a, b \le 9$.
+
+## Checking Your Implementation
+When all unit tests pass successfully, press the "Check task"
+button in the top part of this pane.
+
+## Submitting to Coursera/edX
+In the `sum_of_two_digits.py` file, uncomment the last
+three lines (they are responsible for reading the input and
+writing the output) and submit to Coursera/edX.
+

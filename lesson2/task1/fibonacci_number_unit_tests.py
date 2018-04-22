@@ -1,6 +1,6 @@
+import unittest
 from fibonacci_number import fibonacci_number, fibonacci_number_naive
 
-import unittest
 
 class TestFibonacciNumber(unittest.TestCase):
     def test_small(self):
