@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c270dd-cdce-4467-bda8-29332ea57a27" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/task2/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/task2/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product_unit_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/fibonacci_number_unit_tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/task2/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task2/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/task2/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task2/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sum_of_two_digits.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sum_of_two_digits.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -47,8 +39,8 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state>
+              <caret selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -56,9 +48,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maximum_pairwise_product.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson1/task2/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maximum_pairwise_product.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py">
-          <provider selected="true" editor-type-id="StudyEditor" />
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maximum_pairwise_product_unit_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product_unit_tests.py">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="360">
+              <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
@@ -88,8 +108,8 @@
       <file leaf-file-name="sum_of_two_digits_unit_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-end-line="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -123,6 +143,9 @@
         <option value="$PROJECT_DIR$/lesson2/task1/fibonacci_number_unit_tests.py" />
         <option value="$PROJECT_DIR$/lesson2/task1/tests.py" />
         <option value="$PROJECT_DIR$/lesson1/task1/tests.py" />
+        <option value="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" />
+        <option value="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product_unit_tests.py" />
+        <option value="$PROJECT_DIR$/lesson1/task2/tests.py" />
       </list>
     </option>
   </component>
@@ -194,6 +217,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Run Study Tests.Algorithmic Warm Up/Fibonacci Number">
+  <component name="RunManager" selected="Python.maximum_pairwise_product">
     <configuration name="fibonacci_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithmic Toolbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,6 +245,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="maximum_pairwise_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithmic Toolbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1/task2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,19 +292,6 @@
       <option name="_new_target" value="&quot;fibonacci_number_unit_tests.TestFibonacciNumber&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in /Users/kulikov/github/pycharm-edu-algorithms/lesson1/task1/fibonacci_number_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Algorithmic Toolbox" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1/task1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson1/task1/fibonacci_number_unit_tests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration name="Unittests in /Users/kulikov/github/pycharm-edu-algorithms/lesson1/task2/fibonacci_number_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,14 +306,15 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in /Users/kulikov/github/pycharm-edu-algorithms/lesson1/task1/fibonacci_number_unit_tests.py" />
       <item itemvalue="Python.fibonacci_number" />
       <item itemvalue="Python tests.Unittests in /Users/kulikov/github/pycharm-edu-algorithms/lesson1/task2/fibonacci_number_unit_tests.py" />
       <item itemvalue="Python tests.Unittests for fibonacci_number_unit_tests.TestFibonacciNumber" />
       <item itemvalue="Run Study Tests.Algorithmic Warm Up/Fibonacci Number" />
+      <item itemvalue="Python.maximum_pairwise_product" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maximum_pairwise_product" />
         <item itemvalue="Run Study Tests.Algorithmic Warm Up/Fibonacci Number" />
         <item itemvalue="Python.fibonacci_number" />
         <item itemvalue="Python tests.Unittests for fibonacci_number_unit_tests.TestFibonacciNumber" />
@@ -322,22 +352,39 @@
     <frame x="1" y="23" width="1419" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23965141" />
-      <window_info anchor="right" id="Task Description" order="3" visible="true" weight="0.27668846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23965141" />
+      <window_info active="true" anchor="right" id="Task Description" order="3" visible="true" weight="0.27668846" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22813688" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22813688" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953104" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23965141" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22813688" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953104" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Task Description" order="3" visible="true" weight="0.27668846" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -567,10 +614,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py">
       <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product_unit_tests.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="360">
+          <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -587,10 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
+    <entry file="file://$PROJECT_DIR$/lesson1/task2/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>
@@ -598,12 +672,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py">
-      <provider selected="true" editor-type-id="StudyEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
       <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

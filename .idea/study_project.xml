@@ -18,7 +18,7 @@
           </option>
           <option name="courseMode" value="Course Creator" />
           <option name="courseType" value="PyCharm" />
-          <option name="description" value="Learn algorithms through solving programming challenges in the professional PyCharm IDE!" />
+          <option name="description" value="Learn algorithms through solving programming challenges in the PyCharm IDE! This professional IDE will help you to format and sctructure your code, as well as test and debug it. " />
           <option name="language" value="Python 3.x" />
           <option name="languageCode" value="en" />
           <option name="lessons">
@@ -127,7 +127,7 @@
                       <option name="stepId" value="0" />
                       <option name="taskTexts">
                         <map>
-                          <entry key="task" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;/html&gt;" />
+                          <entry key="task" value="# Programming Challenge Statement&#10;&#10;Given a list $A$ of non-negative integers, find&#10;the maximum product of two distinct elements (that is,&#10;the maximum value of $A[i] \cdot A[j]$ where $i \neq j$;&#10;note that it may be the case that $A[i]=A[j]$).&#10;The length of $A$ is at least 2 and at most $2 \cdot 10^5$,&#10;all elements are non-negative and do not exceed&#10;$2\cdot 10^5$.&#10;&#10;# Naive Algorithms&#10;&#10;The source file `maximum_pairwise_product.py`&#10;contains an implementation of a naive algorithm&#10;that just goes through all possible pairs. While it is&#10;clearly correct, it is too slow. To enusre this,&#10;make the following experiment. Add the following&#10;three lines to the end of the file:&#10;```&#10;n = 10&#10;A = [0] * n&#10;print(max_pairwise_product_naive(A))&#10;```&#10;This code creates a list $A$ of size&#10;$10$ filled with zeros. It then passes it to the&#10;function `max_pairwise_product_naive` and prints&#10;the result. To see the result, press the green&#10;Run button. It will print the result (0) in the&#10;Run area on blink of an eye. Now, change the value&#10;of $n$ from $10$ to $10^5$ by replacing `10` with&#10;`10**5` and run the resulting program again.&#10;You'll see that it hangs.&#10;&#10;# Fast Algorithm&#10;&#10;See the materials of the first week at Coursera or edX&#10;to implement a faster algorithm as `max_pairwise_product`&#10;function.&#10;&#10;# Testing&#10;&#10;After implementing the function `max_pairwise_product`,&#10;start testing your solution. For this, switch to the file&#10;`maximum_pairwise_product_unit_tests.py`. It contains&#10;several unit tests that ensure the correctness of&#10;your program. The function `test_small` checks your&#10;function against a few manually created tests.&#10;The function `test_stress` generates a few short&#10;lists and checks whether your function returns the same&#10;as the naive one. Finally, the function `test_large` checks&#10;your function against massive datasets: the first one&#10;is a list of size $2 \cdot 10^5$ filled in with 4's, the&#10;second one is a list $[0, 1, \ldots, 10^5-1]$.&#10;&#10;&#10;# Checking Your Solution&#10;&#10;# Submitting to Coursera&#10;&#10;" />
                         </map>
                       </option>
                       <option name="testsText">
@@ -142,15 +142,93 @@
                             <value>
                               <TaskFile>
                                 <option name="answerPlaceholders">
-                                  <list />
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="326" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Find the two largest elements in A and return their product." />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="write your code here" />
+                                                <option name="possibleAnswer" value="type here" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="index" value="0" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
-                                <option name="name" value="task.py" />
+                                <option name="name" value="maximum_pairwise_product.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="maximum_pairwise_product_unit_tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="33" />
+                                      <option name="offset" value="401" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Use some small list for which you are able to compute the result by hand" />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="add one more small test case here" />
+                                                <option name="possibleAnswer" value="type here" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="2" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="maximum_pairwise_product_unit_tests.py" />
+                                <option name="text" />
                               </TaskFile>
                             </value>
                           </entry>
@@ -293,7 +371,7 @@
           <option name="name" value="Algorithmic Toolbox" />
         </Course>
       </option>
-      <option name="toolWindowMode" value="TEXT" />
+      <option name="toolWindowMode" value="EDITING" />
       <option name="turnEditingMode" value="false" />
       <option name="VERSION" value="8" />
       <option name="myUserTests">
