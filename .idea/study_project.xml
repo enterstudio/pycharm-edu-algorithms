@@ -40,7 +40,7 @@
                       <option name="stepId" value="0" />
                       <option name="taskTexts">
                         <map>
-                          <entry key="task" value="# Welcome!&#10;&#10;This course powers our popular&#10;&lt;a href=&quot;https://www.coursera.org/specializations/data-structures-algorithms&quot;&gt;Data Structures and Algorithms online specialization on Coursera&lt;/a&gt;&#10;and&#10;&lt;a href=&quot;https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures&quot;&gt;online MicroMasters program at edX&lt;/a&gt;.&#10;We encourage you to sign up for a session and learn&#10;this material while interacting with thousands of&#10;other talented students from around the world.&#10;&#10;A particular goal of this framework is to help you to learn how to&#10;write efficient, reliable, and compact Python code. The PyCharm IDE&#10;will make the learning process smooth and enjoyable: it will help&#10;you with testing and debugging as well as structuring and formatting your code.&#10;&#10;The assumed pipeline is the following.&#10;For each programming challenge in this course:&#10;&lt;ol&gt;&#10;&lt;li&gt;Design an algorithm, prove that it is correct and has the expected asymptotic behavior.&lt;/li&gt;&#10;&lt;li&gt;Implement it in Python here, in PyCharm Edu.&lt;/li&gt;&#10;&lt;li&gt;Implement unit tests and stress tests for your solution. If a bug is found, fix it and test again.&lt;/li&gt;&#10;&lt;li&gt;By pressing the play button on the right pane, check your solution against a few test cases.&lt;/li&gt;&#10;&lt;li&gt;Finally, when you are happy with your implementation, submit to Coursera or edX.&#10;    This will test your solution against dozens of carefully selected tests cases.&#10;    For each test case, the autograding system checks whetheryour solution is fast enough and&#10;    computes the right result.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;Enjoy!&#10;&#10;# Getting Started&#10;&#10;1. We assume that you are already familiar&#10;with basic Python programming. To refresh&#10;your Python skills, you may want to take an&#10;Introductory Python course here&#10;(File -&gt; Browse Courses).&#10;&#10;2. To get familiar with PyCharm Edu, take a look&#10;at the Start Guide: https://www.jetbrains.com/help/pycharm-edu/student-s-guide.html&#10;&#10;# Task&#10;&#10;## Implementing a Solution&#10;Implement the `compute_sum` function that takes two digits (that is,&#10;integers in the range from 0 to 9) and returns the sum of these two digits.&#10;&#10;We start from this ridiculously simple problem to show you the&#10;pipeline of designing an algorithm,&#10;implementing it, testing and debugging your program, and&#10;submitting it to the grading system.&#10;&#10;For this trivial problem, we will skip “Designing an algorithm” and &quot;Implementing&quot;&#10;steps and will move to testing.&#10;&#10;## Testing&#10;Switch to the file `sum_of_two_digits_unit_tests.py`.&#10;It contains unit tests for your implementation. If&#10;you haven't heard about unit testing before, we&#10;encourage you to read about it here:&#10;https://docs.python.org/3/library/unittest.html&#10;or two take a short course here, in PyCharm Edu&#10;(through File -&gt; Browse Courses).&#10;&#10;For this starting programming challenge, we've already&#10;implemented everything for you. Press the green &quot;Execute&quot;&#10;button in the top left corner of the source file to run the&#10;tests and make sure that all tests pass successfully.&#10;&#10;In this challenge, the space of all possible inputs&#10;is so small that it is possible to check just all possible&#10;test cases: the `test_all_inputs` method goes through all&#10;pairs $0 \le a, b \le 9$.&#10;&#10;## Checking Your Implementation&#10;When all unit tests pass successfully, press the &quot;Check task&quot;&#10;button in the top part of this pane.&#10;&#10;## Submitting to Coursera/edX&#10;In the `sum_of_two_digits.py` file, uncomment the last&#10;three lines (they are responsible for reading the input and&#10;writing the output) and submit to Coursera/edX.&#10;&#10;" />
+                          <entry key="task" value="# Welcome!&#10;&#10;This course powers our popular&#10;&lt;a href=&quot;https://www.coursera.org/specializations/data-structures-algorithms&quot;&gt;Data Structures and Algorithms online specialization on Coursera&lt;/a&gt;&#10;and&#10;&lt;a href=&quot;https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures&quot;&gt;online MicroMasters program at edX&lt;/a&gt;.&#10;We encourage you to sign up for a session and learn&#10;this material while interacting with thousands of&#10;other talented students from around the world.&#10;&#10;A particular goal of this framework is to help you to learn how to&#10;write efficient, reliable, and compact Python code. The PyCharm IDE&#10;will make the learning process smooth and enjoyable: it will help&#10;you with testing and debugging as well as structuring and formatting your code.&#10;&#10;The assumed pipeline is the following.&#10;For each programming challenge in this course:&#10;&lt;ol&gt;&#10;&lt;li&gt;Design an algorithm, prove that it is correct and has the expected asymptotic behavior.&lt;/li&gt;&#10;&lt;li&gt;Implement it in Python here, in PyCharm Edu.&lt;/li&gt;&#10;&lt;li&gt;Implement unit tests and stress tests for your solution. If a bug is found, fix it and test again.&lt;/li&gt;&#10;&lt;li&gt;By pressing the play button on the right pane, check your solution against a few test cases.&lt;/li&gt;&#10;&lt;li&gt;Finally, when you are happy with your implementation, submit to Coursera or edX.&#10;    This will test your solution against dozens of carefully selected tests cases.&#10;    For each test case, the autograding system checks whetheryour solution is fast enough and&#10;    computes the right result.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;Enjoy!&#10;&#10;# Getting Started&#10;&#10;1. We assume that you are already familiar&#10;with basic Python programming. To refresh&#10;your Python skills, you may want to take an&#10;Introductory Python course here&#10;(File -&gt; Browse Courses).&#10;&#10;2. To get familiar with PyCharm Edu, take a look&#10;at the Start Guide: https://www.jetbrains.com/help/pycharm-edu/student-s-guide.html&#10;&#10;# Programming Challenge: Sum of Two Digits&#10;&#10;## Implementing a Solution&#10;Implement the `compute_sum` function that takes two digits (that is,&#10;integers in the range from 0 to 9) and returns the sum of these two digits.&#10;&#10;We start from this ridiculously simple problem to show you the&#10;pipeline of designing an algorithm,&#10;implementing it, testing and debugging your program, and&#10;submitting it to the grading system.&#10;&#10;For this trivial problem, we will skip “Designing an algorithm” and &quot;Implementing&quot;&#10;steps and will move to testing.&#10;&#10;## Testing&#10;Switch to the file `sum_of_two_digits_unit_tests.py`.&#10;It contains unit tests for your implementation. If&#10;you haven't heard about unit testing before, we&#10;encourage you to read about it here:&#10;https://docs.python.org/3/library/unittest.html&#10;or two take a short course here, in PyCharm Edu&#10;(through File -&gt; Browse Courses).&#10;&#10;For this starting programming challenge, we've already&#10;implemented everything for you. Press the green &quot;Execute&quot;&#10;button in the top left corner of the source file to run the&#10;tests and make sure that all tests pass successfully.&#10;&#10;In this challenge, the space of all possible inputs&#10;is so small that it is possible to check just all possible&#10;test cases: the `test_all_inputs` method goes through all&#10;pairs $0 \le a, b \le 9$.&#10;&#10;## Checking Your Implementation&#10;When all unit tests pass successfully, press the &quot;Check task&quot;&#10;button in the top part of this pane.&#10;&#10;## Submitting to Coursera/edX&#10;In the `sum_of_two_digits.py` file, uncomment the last&#10;three lines (they are responsible for reading the input and&#10;writing the output) and submit to Coursera/edX.&#10;&#10;" />
                         </map>
                       </option>
                       <option name="testsText">
@@ -363,6 +363,93 @@
                         </map>
                       </option>
                     </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Last Digit of Fibonacci Number" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="# Last Digit of Fibonacci Number&#10;&#10;Implement `last_digit_of_fibonacci_number` function&#10;that takes an integer $0 \le n \le 10^6$ and returns&#10;the last digit of $F_n$.&#10;&#10;As usual, after implementing a solution, do the&#10;following:&#10;* Switch to the unit tests file, add a few new&#10;tests to the already implemented ones, and run the&#10;tests.&#10;* If a bug is found, fix it and run the tests again.&#10;* Then, check your solution in PyCharm Edu.&#10;* Finally, uncomment the last few lines in the&#10;source file and submit the solution to Coursera or edX.&#10;&#10;Please follow the same steps for all the&#10;forthcoming programming challenges. For them, we will&#10;provide the challenge statement only.&#10;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="last_digit_of_fibonacci_number.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="157" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Recall that you need to compute just the last digit of a Fibonacci number. In order to speed up the computation, take every intermediate result modulo 10." />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="write your code here" />
+                                                <option name="possibleAnswer" value="type here" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="last_digit_of_fibonacci_number_unit_tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="2" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="last_digit_of_fibonacci_number_unit_tests.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
                   </list>
                 </option>
               </Lesson>
@@ -371,7 +458,7 @@
           <option name="name" value="Algorithmic Toolbox" />
         </Course>
       </option>
-      <option name="toolWindowMode" value="EDITING" />
+      <option name="toolWindowMode" value="TEXT" />
       <option name="turnEditingMode" value="false" />
       <option name="VERSION" value="8" />
       <option name="myUserTests">
