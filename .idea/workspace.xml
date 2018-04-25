@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c270dd-cdce-4467-bda8-29332ea57a27" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number_unit_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task2/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task2/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task1/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task1/task.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
