@@ -2,6 +2,7 @@
 
 def max_pairwise_product_naive(A):
     assert len(A) >= 2
+    assert all(0 <= x and x <= 2 * 10**5 for x in A)
 
     product = 0
 
@@ -12,6 +13,8 @@ def max_pairwise_product_naive(A):
     return product
 
 def max_pairwise_product(A):
+    assert len(A) >= 2
+    assert all(0 <= x and x <= 2 * 10**5 for x in A)
     type here
 
 # TODO: when your solution is ready, uncomment the following three lines and submit to Coursera/edX

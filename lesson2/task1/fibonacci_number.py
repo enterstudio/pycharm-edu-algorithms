@@ -1,7 +1,7 @@
 #python3 (this comment is needed by the autograding system at Coursera and edX)
 
 def fibonacci_number_naive(n):
-    assert n >= 0
+    assert 0 <= n and n <= 40
 
     if n <= 1:
         return n
@@ -10,6 +10,7 @@ def fibonacci_number_naive(n):
 
 
 def fibonacci_number(n):
+    assert 0 <= n and n <= 40
     write your code here
 
 
