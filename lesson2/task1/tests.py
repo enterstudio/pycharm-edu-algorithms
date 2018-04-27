@@ -1,8 +1,9 @@
-from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+from test_helper import run_common_tests, failed, passed
 from fibonacci_number import fibonacci_number
 
+
 def fibonacci_number_reference(n):
-    assert 0 <= n and n <= 40
+    assert 0 <= n <= 40
     if n <= 1:
         return n
 
@@ -12,17 +13,16 @@ def fibonacci_number_reference(n):
 
     return current
 
+
 if __name__ == '__main__':
     run_common_tests()
 
     all_tests_passed = True
-    for n in range(41):
-        if fibonacci_number(n) != fibonacci_number_reference(n):
+    for x in range(41):
+        if fibonacci_number(x) != fibonacci_number_reference(x):
             all_tests_passed = False
-            failed("Wrong answer for n={}".format(n))
+            failed("Wrong answer for n={}".format(x))
             break
 
     if all_tests_passed:
         passed()
-
-

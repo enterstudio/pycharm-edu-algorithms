@@ -147,7 +147,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="20" />
-                                      <option name="offset" value="326" />
+                                      <option name="offset" value="502" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -157,9 +157,7 @@
                                                 <option name="answer" value="" />
                                                 <option name="hasFrame" value="true" />
                                                 <option name="hints">
-                                                  <list>
-                                                    <option value="Find the two largest elements in A and return their product." />
-                                                  </list>
+                                                  <list />
                                                 </option>
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="write your code here" />
@@ -275,7 +273,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="20" />
-                                      <option name="offset" value="268" />
+                                      <option name="offset" value="310" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -286,12 +284,12 @@
                                                 <option name="hasFrame" value="true" />
                                                 <option name="hints">
                                                   <list>
-                                                    <option value="Make sure to avoid recomputing the same thing again. For this, you may want to allocate an array like this:&#10;&#10;fibonacci = [0] * (n + 1)" />
+                                                    <option value="Make sure to avoid recomputing the same thing again." />
                                                   </list>
                                                 </option>
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="write your code here" />
-                                                <option name="possibleAnswer" value="write your code here" />
+                                                <option name="possibleAnswer" value="type here" />
                                                 <option name="selected" value="false" />
                                                 <option name="status" value="Unchecked" />
                                               </AnswerPlaceholderSubtaskInfo>
@@ -393,7 +391,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="20" />
-                                      <option name="offset" value="157" />
+                                      <option name="offset" value="153" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -480,7 +478,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="20" />
-                                      <option name="offset" value="399" />
+                                      <option name="offset" value="383" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>

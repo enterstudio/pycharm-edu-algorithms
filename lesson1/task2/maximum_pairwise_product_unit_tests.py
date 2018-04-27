@@ -16,8 +16,8 @@ class TestMaxPairwiseProduct(unittest.TestCase):
         max_number = 2 * 10**5
 
         for _ in range(number_of_iterations):
-            A = [randint(0, max_number) for _ in range(array_size)]
-            self.assertEqual(max_pairwise_product(A), max_pairwise_product_naive(A))
+            numbers = [randint(0, max_number) for _ in range(array_size)]
+            self.assertEqual(max_pairwise_product(numbers), max_pairwise_product_naive(numbers))
 
 
     def test_large(self):
