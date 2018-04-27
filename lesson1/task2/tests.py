@@ -1,8 +1,9 @@
-from test_helper import run_common_tests, failed, passed
+from test_helper import run_common_tests, failed, passed, check_tests_pass
 from maximum_pairwise_product import max_pairwise_product
 
 if __name__ == '__main__':
     run_common_tests()
+    check_tests_pass("maximum_pairwise_product_unit_tests.py")
 
     all_tests_passed = True
     tests = [

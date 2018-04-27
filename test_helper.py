@@ -1,4 +1,5 @@
 import sys
+from unittest import defaultTestLoader, TestResult
 
 
 def get_file_text(path):
@@ -222,3 +223,18 @@ def run_common_tests(error_text="Please, reload file and try again"):
     test_is_not_empty()
     test_answer_placeholders_text_deleted()
     test_file_importable()
+
+def check_tests_pass(module_name, error_text="Some unit tests failed. Please fix your code, ensure that all unit tests pass, and try again."):
+    module = import_file(module_name)
+    test_result = run_module_tests(module)
+    if test_result.wasSuccessful():
+        passed()
+    else:
+        failed(error_text)
+
+def run_module_tests(module):
+    test_suite = defaultTestLoader.loadTestsFromModule(module)
+    test_result = TestResult()
+    test_suite.run(test_result)
+    return test_result
+

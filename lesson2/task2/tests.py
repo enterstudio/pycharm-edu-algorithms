@@ -1,4 +1,4 @@
-from test_helper import run_common_tests, failed, passed
+from test_helper import run_common_tests, failed, passed, check_tests_pass
 from last_digit_of_fibonacci_number import last_digit_of_fibonacci_number
 
 
@@ -16,6 +16,7 @@ def fibonacci_number_last_digit_reference(n):
 
 if __name__ == '__main__':
     run_common_tests()
+    check_tests_pass("last_digit_of_fibonacci_number_unit_tests.py")
 
     all_tests_passed = True
     for m in [2, 3, 239, 240, 1000, 9999, 10**6]:

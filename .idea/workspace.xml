@@ -4,19 +4,14 @@
     <list default="true" id="90c270dd-cdce-4467-bda8-29332ea57a27" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/task1/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson1/task1/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task1/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product_unit_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task1/fibonacci_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task1/fibonacci_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/task2/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/task2/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2/task1/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task1/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number_unit_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2/task2/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task2/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2/task3/gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task3/gcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task3/gcd_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task3/gcd_unit_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2/task3/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task3/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_helper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,64 +22,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fibonacci_number.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/task1/fibonacci_number.py">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson2/task1/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sum_of_two_digits.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="300">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="75">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/task1/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fibonacci_number_unit_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/task1/fibonacci_number_unit_tests.py">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson1/task2/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state>
+              <caret column="74" selection-start-column="74" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="55" />
               <folding>
-                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#0#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="last_digit_of_fibonacci_number.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number.py">
+      <file leaf-file-name="sum_of_two_digits_unit_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="180">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="last_digit_of_fibonacci_number_unit_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number_unit_tests.py">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+      <file leaf-file-name="test_helper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="226" column="139" selection-start-line="226" selection-start-column="139" selection-end-line="226" selection-end-column="139" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,11 +91,8 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson2/task2/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="74" selection-start-column="74" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -105,8 +100,8 @@
       <file leaf-file-name="gcd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson2/task3/gcd.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -123,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson2/task3/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -157,20 +152,21 @@
         <option value="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" />
         <option value="$PROJECT_DIR$/lesson1/task1/task.py" />
         <option value="$PROJECT_DIR$/lesson2/task1/fibonacci_number_unit_tests.py" />
-        <option value="$PROJECT_DIR$/lesson1/task2/tests.py" />
-        <option value="$PROJECT_DIR$/lesson2/task1/tests.py" />
-        <option value="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py" />
         <option value="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py" />
-        <option value="$PROJECT_DIR$/lesson1/task1/tests.py" />
         <option value="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py" />
         <option value="$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product_unit_tests.py" />
         <option value="$PROJECT_DIR$/lesson2/task1/fibonacci_number.py" />
         <option value="$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number.py" />
-        <option value="$PROJECT_DIR$/lesson2/task3/gcd.py" />
         <option value="$PROJECT_DIR$/lesson2/task3/gcd_unit_tests.py" />
-        <option value="$PROJECT_DIR$/lesson2/task3/tests.py" />
-        <option value="$PROJECT_DIR$/lesson2/task2/tests.py" />
         <option value="$PROJECT_DIR$/lesson2/task2/last_digit_of_fibonacci_number_unit_tests.py" />
+        <option value="$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py" />
+        <option value="$PROJECT_DIR$/lesson1/task1/tests.py" />
+        <option value="$PROJECT_DIR$/test_helper.py" />
+        <option value="$PROJECT_DIR$/lesson1/task2/tests.py" />
+        <option value="$PROJECT_DIR$/lesson2/task1/tests.py" />
+        <option value="$PROJECT_DIR$/lesson2/task2/tests.py" />
+        <option value="$PROJECT_DIR$/lesson2/task3/tests.py" />
+        <option value="$PROJECT_DIR$/lesson2/task3/gcd.py" />
       </list>
     </option>
   </component>
@@ -634,33 +630,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/task2/fibonacci_number_unit_tests.py" />
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/task2/maximum_pairwise_product.py">
       <provider selected="true" editor-type-id="StudyEditor">
         <state relative-caret-position="405">
@@ -712,10 +681,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits_unit_tests.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="226" column="139" selection-start-line="226" selection-start-column="139" selection-end-line="226" selection-end-column="139" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task1/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/task2/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" selection-start-column="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/task1/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/task2/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" selection-start-column="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/task3/gcd.py">
       <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -731,37 +761,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/task3/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/task2/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/task1/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/task2/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>

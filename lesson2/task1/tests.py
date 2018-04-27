@@ -1,4 +1,4 @@
-from test_helper import run_common_tests, failed, passed
+from test_helper import run_common_tests, failed, passed, check_tests_pass
 from fibonacci_number import fibonacci_number
 
 
@@ -16,6 +16,7 @@ def fibonacci_number_reference(n):
 
 if __name__ == '__main__':
     run_common_tests()
+    check_tests_pass("fibonacci_number_unit_tests.py")
 
     all_tests_passed = True
     for x in range(41):

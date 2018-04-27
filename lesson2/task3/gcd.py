@@ -1,7 +1,7 @@
 #python3 (this comment is needed by the autograding system at Coursera and edX)
 
 def gcd_naive(a, b):
-    assert 0 <= a <= 2 * 10 ** 9 and 0 <= b <= 20 * 10 ** 9
+    assert 1 <= a <= 2 * 10 ** 9 and 1 <= b <= 20 * 10 ** 9
 
     for divisor in range(min(a, b), 0, -1):
         if a % divisor == 0 and b % divisor == 0:
@@ -11,7 +11,7 @@ def gcd_naive(a, b):
 
 
 def gcd(a, b):
-    assert 0 <= a <= 2 * 10 ** 9 and 0 <= b <= 20 * 10 ** 9
+    assert 1 <= a <= 2 * 10 ** 9 and 1 <= b <= 20 * 10 ** 9
     type here
 
 
