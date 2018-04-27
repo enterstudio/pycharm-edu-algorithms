@@ -1,8 +1,9 @@
 import unittest
 from last_digit_of_fibonacci_number import last_digit_of_fibonacci_number
 
+
 def fibonacci_number_naive(n):
-    assert 0 <= n and n <= 20
+    assert 0 <= n <= 20
 
     if n <= 1:
         return n
@@ -14,7 +15,6 @@ class TestLastDigitOfFibonacciNumber(unittest.TestCase):
     def test_small(self):
         for n in range(20):
             self.assertEqual(fibonacci_number_naive(n) % 10, last_digit_of_fibonacci_number(n))
-
 
     def test_large(self):
         for (n, last_digit) in [(100, 5), (139, 1), (91239, 6)]:
