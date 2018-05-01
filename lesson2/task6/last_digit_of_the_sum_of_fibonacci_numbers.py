@@ -22,4 +22,4 @@ def last_digit_of_the_sum_of_fibonacci_numbers(n):
 # TODO: when your solution is ready, uncomment the following three lines and submit to Coursera/edX
 # if __name__ == '__main__':
 #     input_n = int(input())
-#     print(last_digit_of_the_sum_of_fibonacci_numbers_naive(input_n))
+#     print(last_digit_of_the_sum_of_fibonacci_numbers(input_n))
