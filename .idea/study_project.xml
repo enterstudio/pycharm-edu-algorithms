@@ -127,7 +127,7 @@
                       <option name="stepId" value="0" />
                       <option name="taskTexts">
                         <map>
-                          <entry key="task" value="# Programming Challenge Statement&#10;&#10;Given a list $A$ of non-negative integers, find&#10;the maximum product of two distinct elements (that is,&#10;the maximum value of $A[i] \cdot A[j]$ where $i \neq j$;&#10;note that it may be the case that $A[i]=A[j]$).&#10;The length of $A$ is at least 2 and at most $2 \cdot 10^5$,&#10;all elements are non-negative and do not exceed&#10;$2\cdot 10^5$.&#10;&#10;# Naive Algorithms&#10;&#10;The source file `maximum_pairwise_product.py`&#10;contains an implementation of a naive algorithm&#10;that just goes through all possible pairs. While it is&#10;clearly correct, it is too slow. To enusre this,&#10;make the following experiment. Add the following&#10;three lines to the end of the file:&#10;```&#10;n = 10&#10;A = [0] * n&#10;print(max_pairwise_product_naive(A))&#10;```&#10;This code creates a list $A$ of size&#10;$10$ filled with zeros. It then passes it to the&#10;function `max_pairwise_product_naive` and prints&#10;the result. To see the result, press the green&#10;Run button. It will print the result (0) in the&#10;Run area on blink of an eye. Now, change the value&#10;of $n$ from $10$ to $10^5$ by replacing `10` with&#10;`10**5` and run the resulting program again.&#10;You'll see that it hangs.&#10;&#10;# Fast Algorithm&#10;&#10;See the materials of the first week at Coursera or edX&#10;to implement a faster algorithm as `max_pairwise_product`&#10;function.&#10;&#10;# Testing&#10;&#10;After implementing the function `max_pairwise_product`,&#10;start testing your solution. For this, switch to the file&#10;`maximum_pairwise_product_unit_tests.py`. It contains&#10;several unit tests that ensure the correctness of&#10;your program. The function `test_small` checks your&#10;function against a few manually created tests.&#10;The function `test_stress` generates a few short&#10;lists and checks whether your function returns the same&#10;as the naive one. Finally, the function `test_large` checks&#10;your function against massive datasets: the first one&#10;is a list of size $2 \cdot 10^5$ filled in with 4's, the&#10;second one is a list $[0, 1, \ldots, 10^5-1]$.&#10;&#10;&#10;# Checking Your Solution&#10;&#10;# Submitting to Coursera&#10;&#10;" />
+                          <entry key="task" value="# Maximum Pairwise Product&#10;&#10;Given a list $A$ of non-negative integers, find&#10;the maximum product of two distinct elements (that is,&#10;the maximum value of $A[i] \cdot A[j]$ where $i \neq j$;&#10;note that it may be the case that $A[i]=A[j]$).&#10;The length of $A$ is at least 2 and at most $2 \cdot 10^5$,&#10;all elements are non-negative and do not exceed&#10;$2\cdot 10^5$.&#10;&#10;# Naive Algorithm&#10;&#10;The source file `maximum_pairwise_product.py`&#10;contains an implementation of a naive algorithm&#10;that just goes through all possible pairs. While it is&#10;clearly correct, it is too slow. To enusre this,&#10;make the following experiment. Add the following&#10;three lines to the end of the file:&#10;```&#10;n = 10&#10;A = [0] * n&#10;print(max_pairwise_product_naive(A))&#10;```&#10;This code creates a list $A$ of size&#10;$10$ filled with zeros. It then passes it to the&#10;function `max_pairwise_product_naive` and prints&#10;the result. To see the result, press the green&#10;Run button. It will print the result (0) in the&#10;Run area on blink of an eye. Now, change the value&#10;of $n$ from $10$ to $10^5$ by replacing `10` with&#10;`10**5` and run the resulting program again.&#10;You'll see that it hangs.&#10;&#10;# Fast Algorithm&#10;&#10;See the materials of the first week at Coursera or edX&#10;to implement a faster algorithm as `max_pairwise_product`&#10;function.&#10;&#10;# Testing&#10;&#10;After implementing the function `max_pairwise_product`,&#10;start testing your solution. For this, switch to the file&#10;`maximum_pairwise_product_unit_tests.py`. It contains&#10;several unit tests that ensure the correctness of&#10;your program. The function `test_small` checks your&#10;function against a few manually created tests.&#10;The function `test_stress` generates a few short&#10;lists and checks whether your function returns the same&#10;as the naive one. Finally, the function `test_large` checks&#10;your function against massive datasets: the first one&#10;is a list of size $2 \cdot 10^5$ filled in with 4's, the&#10;second one is a list $[0, 1, \ldots, 10^5-1]$.&#10;&#10;Add two more unit tests and run it. Ensure that all tests pass.&#10;&#10;&#10;# Checking Your Solution&#10;&#10;When all unit tests pass, check your solution by&#10;pressing the &quot;Check Task&quot; button.&#10;&#10;&#10;# Submitting to Coursera&#10;&#10;When the check is successfull, uncomment the last four&#10;lines of the source file and submit it to Coursera or edX.&#10;" />
                         </map>
                       </option>
                       <option name="testsText">
@@ -273,7 +273,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="20" />
-                                      <option name="offset" value="310" />
+                                      <option name="offset" value="300" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -283,9 +283,7 @@
                                                 <option name="answer" value="" />
                                                 <option name="hasFrame" value="true" />
                                                 <option name="hints">
-                                                  <list>
-                                                    <option value="Make sure to avoid recomputing the same thing again." />
-                                                  </list>
+                                                  <list />
                                                 </option>
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="write your code here" />
@@ -1251,6 +1249,46 @@
                                 <option name="userCreated" value="false" />
                                 <option name="name" value="money_change_unit_tests.py" />
                                 <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="maximum_value_of_the_loot" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;/html&gt;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="maximum_loot.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>

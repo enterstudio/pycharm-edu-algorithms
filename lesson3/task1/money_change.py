@@ -6,7 +6,6 @@ def money_change(money):
     type here
 
 
-# TODO: when your solution is ready, uncomment the following three lines and submit to Coursera/edX
-# if __name__ == '__main__':
-#     input_money = int(input())
-#     print(money_change(input_money))
+if __name__ == '__main__':
+    input_money = int(input())
+    print(money_change(input_money))

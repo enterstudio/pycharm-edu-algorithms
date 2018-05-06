@@ -5,7 +5,6 @@ def last_digit_of_the_sum_of_fibonacci_numbers_again(from_index, to_index):
     type here
 
 
-# TODO: when your solution is ready, uncomment the following three lines and submit to Coursera/edX
-# if __name__ == '__main__':
-#     input_from, input_to = map(int, input().split())
-#     print(last_digit_of_the_sum_of_fibonacci_numbers_again(input_from, input_to))
+if __name__ == '__main__':
+    input_from, input_to = map(int, input().split())
+    print(last_digit_of_the_sum_of_fibonacci_numbers_again(input_from, input_to))

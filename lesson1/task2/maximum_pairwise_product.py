@@ -20,9 +20,8 @@ def max_pairwise_product(numbers):
     type here
 
 
-# TODO: when your solution is ready, uncomment the following three lines and submit to Coursera/edX
-# if __name__ == '__main__':
-#     n = int(input())
-#     input_numbers = [int(x) for x in input().split()]
-#     assert len(input_numbers) == n
-#     print(max_pairwise_product(input_numbers))
+if __name__ == '__main__':
+    n = int(input())
+    input_numbers = [int(x) for x in input().split()]
+    assert len(input_numbers) == n
+    print(max_pairwise_product(input_numbers))

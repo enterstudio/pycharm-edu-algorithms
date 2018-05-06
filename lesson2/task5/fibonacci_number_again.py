@@ -19,7 +19,6 @@ def fibonacci_number_again(n, m):
     type here
 
 
-# TODO: when your solution is ready, uncomment the following three lines and submit to Coursera/edX
-# if __name__ == '__main__':
-#     input_n, input_m = map(int, input().split())
-#     print(fibonacci_number_again(input_n, input_m))
+if __name__ == '__main__':
+    input_n, input_m = map(int, input().split())
+    print(fibonacci_number_again(input_n, input_m))
