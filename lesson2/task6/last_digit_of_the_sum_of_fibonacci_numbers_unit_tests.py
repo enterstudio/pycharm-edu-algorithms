@@ -2,7 +2,7 @@ import unittest
 from last_digit_of_the_sum_of_fibonacci_numbers import last_digit_of_the_sum_of_fibonacci_numbers, last_digit_of_the_sum_of_fibonacci_numbers_naive
 
 
-class TestLastDFibonacciNumber(unittest.TestCase):
+class TestLastDigitOfTheSumOfFibonacciNumbers(unittest.TestCase):
     def test_small(self):
         for n in range(20):
             self.assertEqual(last_digit_of_the_sum_of_fibonacci_numbers(n),
