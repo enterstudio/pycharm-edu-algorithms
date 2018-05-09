@@ -2,7 +2,7 @@
 
 
 def fibonacci_number_again_naive(n, m):
-    assert 0 <= n <= 10 ** 18 and 2 <= m <= 10 ** 5
+    assert 0 <= n <= 10 ** 18 and 2 <= m <= 10 ** 3
 
     if n <= 1:
         return n
@@ -15,7 +15,7 @@ def fibonacci_number_again_naive(n, m):
 
 
 def fibonacci_number_again(n, m):
-    assert 0 <= n <= 10 ** 18 and 2 <= m <= 10 ** 5
+    assert 0 <= n <= 10 ** 18 and 2 <= m <= 10 ** 3
     type here
 
 
