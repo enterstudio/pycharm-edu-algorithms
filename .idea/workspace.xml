@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c270dd-cdce-4467-bda8-29332ea57a27" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson3/task2/maximum_loot_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/task3/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/task3/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task5/fibonacci_number_again.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task5/fibonacci_number_again.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task5/fibonacci_number_again_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task5/fibonacci_number_again_unit_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/task5/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/task5/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/task2/maximum_loot.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/task2/maximum_loot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/task2/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/task2/task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/task2/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/task2/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sum_of_two_digits.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="money_change.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson3/task1/money_change.py">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="maximum_loot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson3/task2/maximum_loot.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="51" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -51,8 +30,8 @@
       <file leaf-file-name="maximum_loot_unit_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson3/task2/maximum_loot_unit_tests.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="11" column="35" lean-forward="true" selection-end-line="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -60,13 +39,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maximum_ad_revenue_unit_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue_unit_tests.py">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="300">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson3/task2/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="165">
+              <caret line="11" column="26" lean-forward="true" selection-end-line="19" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson3/task3/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maximum_ad_revenue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue.py">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="240">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="e#75#85#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/lesson3/task1/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="true" selection-end-line="22" />
+              <caret line="9" column="18" selection-end-line="22" />
               <folding>
                 <element signature="e#0#74#0" expanded="true" />
               </folding>
@@ -88,19 +103,10 @@
         <entry file="file://$PROJECT_DIR$/lesson3/task1/money_change_unit_tests.py">
           <provider selected="true" editor-type-id="StudyEditor">
             <state relative-caret-position="165">
-              <caret line="11" column="19" lean-forward="true" selection-end-line="12" />
+              <caret line="11" column="19" selection-end-line="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fibonacci_number_again.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/task5/fibonacci_number_again.py">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="255">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -121,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/lesson2/task5/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#74#0" expanded="true" />
               </folding>
@@ -188,6 +194,9 @@
         <option value="$PROJECT_DIR$/lesson3/task2/maximum_loot.py" />
         <option value="$PROJECT_DIR$/lesson3/task2/maximum_loot_unit_tests.py" />
         <option value="$PROJECT_DIR$/lesson3/task2/tests.py" />
+        <option value="$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue_unit_tests.py" />
+        <option value="$PROJECT_DIR$/lesson3/task3/tests.py" />
+        <option value="$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue.py" />
       </list>
     </option>
   </component>
@@ -226,19 +235,30 @@
             <path>
               <item name="pycharm-edu-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="pycharm-edu-algorithms" type="ef639090:CCCourseNode" />
-              <item name="lesson3" type="e994c609:CCLessonNode" />
+              <item name="lesson1" type="e994c609:CCLessonNode" />
             </path>
             <path>
               <item name="pycharm-edu-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="pycharm-edu-algorithms" type="ef639090:CCCourseNode" />
-              <item name="lesson3" type="e994c609:CCLessonNode" />
+              <item name="lesson1" type="e994c609:CCLessonNode" />
               <item name="task1" type="83e62b93:CCTaskNode" />
             </path>
             <path>
               <item name="pycharm-edu-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="pycharm-edu-algorithms" type="ef639090:CCCourseNode" />
               <item name="lesson3" type="e994c609:CCLessonNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pycharm-edu-algorithms" type="ef639090:CCCourseNode" />
+              <item name="lesson3" type="e994c609:CCLessonNode" />
               <item name="task2" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pycharm-edu-algorithms" type="ef639090:CCCourseNode" />
+              <item name="lesson3" type="e994c609:CCLessonNode" />
+              <item name="task3" type="83e62b93:CCTaskNode" />
             </path>
           </expand>
           <select />
@@ -247,6 +267,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Edu.CourseCreator.LastArchiveLocation" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -262,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Run Study Tests.Greedy Algorithms/Maximum Value of the Loot">
+  <component name="RunManager" selected="Python.maximum_ad_revenue">
     <configuration name="fibonacci_number (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithmic Toolbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,7 +302,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fibonacci_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maximum_ad_revenue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithmic Toolbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,11 +310,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1/task1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3/task3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/task1/fibonacci_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,19 +361,19 @@
       <option name="studyTest" value="$PROJECT_DIR$/lesson3/task2/tests.py" />
     </configuration>
     <list>
-      <item itemvalue="Python.fibonacci_number" />
       <item itemvalue="Run Study Tests.Algorithmic Warm Up/Fibonacci Number" />
       <item itemvalue="Python.maximum_pairwise_product" />
       <item itemvalue="Python.fibonacci_number (1)" />
       <item itemvalue="Run Study Tests.Greedy Algorithms/Maximum Value of the Loot" />
+      <item itemvalue="Python.maximum_ad_revenue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maximum_ad_revenue" />
         <item itemvalue="Run Study Tests.Greedy Algorithms/Maximum Value of the Loot" />
         <item itemvalue="Python.fibonacci_number (1)" />
         <item itemvalue="Python.maximum_pairwise_product" />
         <item itemvalue="Run Study Tests.Algorithmic Warm Up/Fibonacci Number" />
-        <item itemvalue="Python.fibonacci_number" />
       </list>
     </recent_temporary>
   </component>
@@ -386,12 +407,12 @@
     <frame x="1" y="23" width="1419" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26652142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652142" />
       <window_info anchor="right" id="Task Description" order="3" visible="true" weight="0.27668846" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953104" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32953104" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3282636" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3282636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -424,27 +445,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson2/task1/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/task1/fibonacci_number.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/task1/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/task2/fibonacci_number_unit_tests.py" />
     <entry file="file://$PROJECT_DIR$/lesson2/task1/tests.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -772,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/lesson1/task1/sum_of_two_digits.py">
       <provider selected="true" editor-type-id="StudyEditor">
         <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-end-line="1" />
+          <caret line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -796,7 +796,7 @@
     <entry file="file://$PROJECT_DIR$/lesson2/task5/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#74#0" expanded="true" />
           </folding>
@@ -814,7 +814,7 @@
       </provider>
       <provider selected="true" editor-type-id="StudyEditor">
         <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-end-line="12" />
+          <caret line="11" column="19" selection-end-line="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -824,36 +824,66 @@
     <entry file="file://$PROJECT_DIR$/lesson3/task1/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="true" selection-end-line="22" />
+          <caret line="9" column="18" selection-end-line="22" />
           <folding>
             <element signature="e#0#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/task2/maximum_loot.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson3/task2/maximum_loot_unit_tests.py">
       <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="true" selection-end-line="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/task2/maximum_loot.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="51" />
+    <entry file="file://$PROJECT_DIR$/lesson3/task2/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/task2/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+    <entry file="file://$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#75#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/task3/maximum_ad_revenue_unit_tests.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/task3/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
